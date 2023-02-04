@@ -1,0 +1,38 @@
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+body{
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+canvas{
+    border: 2px solid white;
+    margin-right: 100px;
+}
+button{
+    color: white;
+    background-color: blue;
+    height: 70px;
+    width: 100px;
+    border-radius: 10%;
+    margin: 40px;
+}
+
+.score{
+   text-align: center;
+    font-size: 30px;
+    color: white;
+    font-style: initial;
+    font-weight: bolder;
+    margin-right: 100px;
+}
+.instructions{
+    color: white;
+    font-weight: bold;
+    
+}
